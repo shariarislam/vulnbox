@@ -1,6 +1,5 @@
+### To run fixed container use:
 
-### To run this container use:
+`docker build . -t vulnbox_fixed:latest`
 
-`docker build . -t vulnbox:latest`
-
-`docker run -p 80:80 vulnbox:latest`
+`docker run -p 80:80 vulnbox_fixed:latest`
